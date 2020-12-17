@@ -1,0 +1,20 @@
+{
+  "name": "discussion-forum",
+  "version": "1.0.0",
+  "description": "discussion forum using node and mysql",
+  "main": "index.js",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "dotenv": "^8.2.0",
+    "ejs": "^3.1.5",
+    "express": "^4.17.1",
+    "mysql": "^2.18.1",
+    "randomstring": "^1.1.5",
+    "unicode-passgen": "^1.1.0"
+  },
+  "scripts": {
+    "test": "nodemon index.js"
+  },
+  "author": "ykgautam09",
+  "license": "ISC"
+}
