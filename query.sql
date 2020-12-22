@@ -30,6 +30,8 @@ CREATE TABLE `course_answer`
     `entry_time`         TIMESTAMP DEFAULT current_timestamp,
     `image_link`         TEXT      DEFAULT NULL,
     `vote`               INT       DEFAULT 0,
+    `order`              INT       DEFAULT 0,
+    `depth`              INT       DEFAULT 0,
     `modified`           INT       DEFAULT 0,
     `miscellaneous`      TEXT      DEFAULT NULL
 );
